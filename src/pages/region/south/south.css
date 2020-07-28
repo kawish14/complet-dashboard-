@@ -1,0 +1,379 @@
+.page-wrapper>.container-fluid {
+    padding: 10px; 
+    min-height: calc(100vh - 180px);
+    
+    
+}
+#infoDiv {
+        background-color: #242424;
+        color: white;
+        padding: 6px;
+        width: 250px;
+        display: flex;
+        flex: 1;
+        flex-direction: column
+}
+#odb-type{
+    background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 3px
+}
+#query-button{
+    background-color: #242424;
+    color: white;
+    display: flex;
+    flex: 2;
+    padding: 5px;
+    cursor: pointer;
+    justify-content: center
+}
+#cancel{
+    background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+#table {
+    background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+#table-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+
+.relateButton{
+    bottom: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #242424;
+    border: 1px solid #ddd;
+    width: 79vw;
+    margin-left: 2px
+
+}
+#fat{
+
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    text-shadow: 2px 2px  #545454;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#customer{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+     text-shadow: 2px 2px  #545454;
+    margin: 3px;
+    padding-left: 15px;
+     padding-right: 15px;
+}
+.closeRelate{
+
+    cursor: pointer;
+    padding-right: 5px;
+   
+}
+#colinput{
+     background-color: #383838;
+    border: none;
+    color: white
+}
+
+#fat:hover {background-color: #545454;}
+#customer:hover {background-color: #545454;}
+
+#attribute {
+    background-color: #242424;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1 1;
+    flex: 1 1;
+    color: white;
+    overflow: auto;
+    max-height: 188px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd
+}
+#attribute td, #atttribute tr{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #383838;
+}
+#attribute th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #242424;
+    color: white;
+}
+#attribute tr:nth-child(even){background-color: #b4b1b1;}
+
+#attribute td:hover {background-color: #545454;}
+
+
+#infoDiv1{
+    background-color: #242424;
+    color: white;
+    padding: 6px;
+    width: 250px;
+    display: flex;
+    flex: 1;
+    flex-direction: column
+}
+
+#distance{
+    display: none;
+}
+#Town{
+    background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 3px
+}
+#buttons{
+        display: flex;
+        flex-direction: row,
+        
+}
+#query-DC{
+    background-color: #242424;
+    color: white;
+    padding: 2px;
+    flex:1;
+        cursor: pointer;
+}
+#query-customer{
+    background-color: #242424;
+    color: white;
+    padding: 2px;
+    flex: 1;
+    cursor: pointer;
+}
+#unselect{
+    display: flex;
+    flex: 1;
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+}
+
+#tableDC{
+    background-color: #242424;
+    color: white;
+    padding: 5px;
+    cursor: pointer; 
+}
+.fa,.fa-columns {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 11px;
+    margin-right: 10px
+}
+#myButtonControlID{
+    background-color: #242424;
+    color: white;
+    padding: 2px;
+    flex: 1;
+    cursor: pointer;
+}
+
+#infoDivDate {
+        background-color: #242424;
+        color: white;
+        padding: 6px;
+        width: 240px;
+        display: flex;
+        flex: 1;
+        flex-direction: column
+}
+#TownDate{
+    background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 3px
+}
+#dates1, #dates2{
+   background-color: #242424;
+    color: white;
+    flex: 1;
+    padding: 3px 
+}
+#queryDate, #unselect1{
+    background-color: #242424;
+    color: white;
+    padding: 2px;
+    flex: 1;
+    cursor: pointer;
+}
+#resultsDate{
+    overflow: auto;
+    max-height: 50px;
+}
+#close{
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    padding: 2px
+}
+i.far.fa-times-circle {
+    display: flex;
+    margin: 3px;
+}
+
+#save {
+    margin-right: 10px;
+    background-color: #459a45;
+    border: 1px solid #459a45;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#save:hover {background-color: rgb(38, 156, 38);}
+.label{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+    display: flex;
+}
+.checkfat, .checkdc, .checkParcels, .checkRoad, .odb, .fat, .Parcels{
+    margin: 12px;
+}
+#fat {
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    text-shadow: 2px 2px #545454;
+    padding-left: 0px;
+    padding-right: 6px;
+        padding-top: 7px;
+}
+#odb {
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    text-shadow: 2px 2px #545454;
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-top: 7px;
+}
+
+#Parcels {
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    text-shadow: 2px 2px #545454;
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-top: 7px;
+}
+#road {
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    text-shadow: 2px 2px #545454;
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-top: 7px;
+}
+.relateClose{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #a2a2a2;
+}
+.search-input {
+    padding-left: 12px;
+    margin-left: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+
+}
+#relateTable th, #relateTable td{
+    background-color: #242424;
+     padding: 5px;
+     max-height: 30vh;
+     cursor: pointer;
+}
+#relateTable th{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.tableResponsive{
+    background-color: #242424;
+    overflow: auto;
+    color: whitesmoke;
+    max-height: 30vh;
+}
+
+.esri-legend.esri-widget--panel.esri-widget {
+    max-height: 66vh;
+}
+
+.action-button {
+font-size: 16px;
+background-color: transparent;
+border: 1px solid #d3d3d3;
+color: #6e6e6e;
+height: 32px;
+width: 32px;
+text-align: center;
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:hover,
+.action-button:focus {
+background: #0079c1;
+color: #e4e4e4;
+}
+
+.active {
+background: #0079c1;
+color: #e4e4e4;
+}
+
+.polylineLength.esri-component {
+background-color: #242424;
+ color: whitesmoke;
+ font-size: medium;
+ width: 12vw;
+ text-align: center;
+}
+.esri-print.esri-widget.esri-widget--panel {
+    height: 52vh;
+}
+.esri-legend.esri-widget--panel.esri-widget {
+    max-height: 45vh;
+    max-width: 43vh;
+}
+/* .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-color: #6e6e6e;
+} */

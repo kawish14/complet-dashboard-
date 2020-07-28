@@ -1,0 +1,40 @@
+.esri-component.esri-legend.esri-widget--panel.esri-widget {
+    width: 50vh;
+    max-height: 50vh;
+}
+#service {
+    background-color: #242424;
+    color: white;
+    display: flex;
+    flex: 1;
+    padding: 4px;
+    /* cursor: pointer; */
+    border-radius: 3PX;
+    width: 15VW;
+}
+.BoqButton{
+    background-color: #242424;
+    color: white;
+    padding: 7px;
+    border: 1px solid #242424;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.BoqButton:hover{
+    background-color: black;
+}
+.table.table-striped.table-bordered.esri-component {
+    background-color: #242424;
+    color: white;
+    overflow: auto;
+}
+.heading{
+    font-weight: bold;
+    background-color: black;
+}
+.clodeBoQTable {
+    padding-left: 15px;
+    padding-bottom: 5px;
+   cursor: pointer;
+   font-size: 20px;
+}

@@ -1,0 +1,72 @@
+.card-row.row {
+    padding-top: 10px;
+
+}
+.card-header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #2f353a;
+    color: aliceblue;
+    margin-top: 8px
+}
+.card-body {
+    background-color: #3a4248;
+    color: aliceblue
+}
+.cardbody{ 
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+   
+ }
+ .cardbody-key{
+     display:flex;
+     flex: 1;
+     
+ }
+ .map.col {
+    display: flex;
+    flex: 2;
+    width: 100%
+}
+
+ #res{
+     cursor: pointer;
+ }
+ #cor{
+     cursor: pointer;
+ }
+ #ret{
+     cursor: pointer;
+ }
+ #cir{
+     cursor: pointer;
+ }
+ .south{
+     cursor: pointer;
+ }
+ #north{
+     cursor: pointer;
+ }
+ #northres{
+     cursor: pointer;
+ }
+ #northcor{
+     cursor: pointer;
+ }
+ #northret{
+     cursor: pointer;
+ }
+ i.fas.fa-minus-circle {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: white;
+}
+ #remove {
+         margin-right: 150px;
+    cursor: pointer;
+    background-color: #2f353a;
+    border: none;
+}

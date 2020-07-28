@@ -1,0 +1,146 @@
+.tableResponsive{
+    flex-direction: column;
+    background-color: #242424;
+    overflow: auto;
+    color: whitesmoke;
+    max-height: 30vh;
+}
+.selectlayer {
+    background-color:  #232323;
+    color: white;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+}
+/* DC-DB Table*/
+.thead th{
+    background-color: #242424;
+    padding: 8px;
+    max-height: 30vh;
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+     
+}
+#relateTableDC td{
+    background-color: #3d3d3d;
+    padding: 5px;
+}
+
+.tfoot th{
+     background-color: #242424;
+     padding: 2px;
+     max-height: 30vh;
+     cursor: pointer;
+     border:none;
+}
+#relateTableDC td:hover {background-color: #545454;}
+
+.relateClose{
+    justify-content: space-between;
+   float: left;
+    color: #a2a2a2;
+    border: none;
+  
+}
+
+.closeRelate{
+    cursor: pointer;
+    padding-right: 5px;
+    float: right;
+    margin-right: 5px;
+  
+}
+
+/* FAT Table*/
+#relateTableFAT th{
+    background-color: #242424;
+     padding: 5px;
+     max-height: 30vh;
+     cursor: pointer;
+     position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#relateTableFAT td{
+ background-color: #3d3d3d;
+    padding: 5px;
+}
+#relateTableFAT td:hover {background-color: #545454;}
+
+.infoDiv{
+     background-color: #242424;
+        color: white;
+        padding: 6px;
+        width: 250px;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+}
+.GetUniqueValue, .ClearQuery{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    padding: 2px;   
+    
+}
+.FATODB{
+       background-color: #242424;
+        color: white;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        overflow: auto;
+       
+}
+.fiberDiv{
+     background-color: #242424;
+     color: white;
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+     padding: 6px;
+     height: 35vh;
+     overflow: auto;
+}
+.fiberSelect{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.fiberButtons{
+    background-color: #242424;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.closeButton{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+.mergeButton{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #242424;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.coreButton{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}

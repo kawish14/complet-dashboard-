@@ -1,0 +1,50 @@
+#loginform {
+    width: 19em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar-brand{
+    background-color: #1f262d;
+     border: none
+}
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link {
+    background: #1f252b;
+    opacity: 1;
+}
+.topbar .nav-toggler, .topbar .topbartoggler {
+    color: #f3f1f1;
+    padding: 0 15px;
+    background-color: #1f262d;
+    border: none;
+}
+.left-sidebar {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    top: 0px;
+    z-index: 10;
+    padding-top: 64px;
+    background: 
+#1f262d;
+-webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+box-shadow: 1px 0px 20px
+    rgba(0, 0, 0, 0.08);
+}
+.topbar .top-navbar .navbar-header {
+    width: 250px;
+    line-height: 64px;
+    background-color: 
+    #1f262d;
+}
+
+
+
+
+
+
+
+
+
+
+
+

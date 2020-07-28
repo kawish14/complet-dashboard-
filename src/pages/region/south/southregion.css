@@ -1,0 +1,11 @@
+#base-container {
+    height: 90vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: -10px
+}
+.webmap {
+  height: 400px;
+}
