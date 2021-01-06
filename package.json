@@ -10,7 +10,7 @@
     "@material-ui/core": "^4.10.2",
     "@sweetalert/with-react": "^0.1.1",
     "apexcharts": "^3.10.1",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "canvasjs": "^1.8.1",
     "esri-loader": "^2.11.0",
